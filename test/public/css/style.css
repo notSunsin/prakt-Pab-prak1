@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f0ff;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.profil {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profil img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.w3-bar-item.active {
+  font-weight: bold;
+}
+
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  background-color: rgba(11, 198, 255, 0.685);
+  color: rgb(5, 4, 4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+
+.active {
+  display: block;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2em;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+img {
+  display: block;
+  float: left;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  height: 70px; /* Ubah padding ke height */
+  background-color: #70704d;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer a {
+  margin: 0 40px;
+  text-decoration: none;
+}
+
+footer img {
+  vertical-align: middle;
+  
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+  flex-grow: 1;
+}
+
+.hero-card {
+  background-color: #6b1823;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-card img {
+  width: 80%;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 2%;
+}
+
+.hero-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.hero-card button {
+  background-color: #dcdcdc;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+.hero-card button:hover {
+  background-color: #a9a9a9;
+}
+
+
+
+.privacy-policy {
+  text-align: left;
+}
+
+/* Style untuk Nav Item yang Aktif */
+.nav-item.active .nav-link {
+  font-weight: bold;
+}
