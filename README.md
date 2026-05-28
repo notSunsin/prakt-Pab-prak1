@@ -1,7 +1,12 @@
-<<<<<<< HEAD
-# prakt1
+# prak1
 
-A new Flutter project.
+# **TUGAS PRAKTIKUM 1 PRAKTIKUM PAB 2026**
+
+NAMA : MUHAMMAD RIZKY H
+
+NIM : 1462300237
+
+SESI : PAB - 3
 
 ## Getting Started
 
